@@ -1,4 +1,6 @@
+import './index.css';
 import _ from 'lodash';
+import registerServiceWorker from './registerServiceWorker';
 import React, { Component } from 'react';
 import ReactDOM from 'react-dom';
 import YTSearch from 'youtube-api-search';
@@ -6,7 +8,6 @@ import SearchBar from './components/search_bar';
 import VideoList from './components/video_list';
 import VideoDetail from './components/video_detail';
 const API_KEY = 'AIzaSyCx_R79KTx1GHue7uNsYyJVQ_wrsfxfP-M';
-
 
 
 class App extends Component{
@@ -47,5 +48,5 @@ class App extends Component{
 
 
 
-ReactDOM.render(<App />, document.querySelector('.container'));
-
+ReactDOM.render(<App />, document.getElementById('root'));
+registerServiceWorker();
