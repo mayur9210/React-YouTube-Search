@@ -1,1 +1,1 @@
-youtube-search-api.netlify.com
+https://youtube-search-api.netlify.com
