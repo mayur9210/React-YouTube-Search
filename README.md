@@ -1,1 +1,1 @@
-https://yt-cnzudxrlzu.now.sh/
+youtube-search-api.netlify.com
